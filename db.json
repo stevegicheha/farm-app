@@ -1,0 +1,19 @@
+{
+    
+     "animalProducts": [
+        { "id": 1, "name": "Milk", "image": "/assets/milk.jpg" },
+        { "id": 2, "name": "Eggs", "image": "/assets/eggs.jpg" },
+        { "id": 3, "name": "Cheese", "image": "/assets/cheese.jpg" }
+    ],
+    "farmProducts": [
+        { "id": 1, "name": "Tomatoes", "image": "/assets/tomatoes.jpg" },
+        { "id": 2, "name": "Carrots", "image": "/assets/carrots.jpg" },
+        { "id": 3, "name": "Lettuce", "image": "/assets/lettuce.jpg" }
+    ], 
+    "contactInfo": {
+      "address": "123 Farm Lane, Countryside, USA",
+      "phone": "555-123-4567",
+      "email": "contact@farmcompany.com"
+    }
+  }
+  

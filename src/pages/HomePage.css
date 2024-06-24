@@ -1,0 +1,52 @@
+/* Container for the HomePage */
+.home {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;  /* Light background color */
+}
+
+/* Container for the slideshow */
+.slideshow {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for each slide */
+.slide {
+  display: none;  /* Hide all slides by default */
+}
+
+.slide img {
+  width: 100%;  /* Make the image take up the full width of the slide */
+  height: auto;
+}
+
+/* Container for the navigation buttons */
+.home-buttons {
+  margin-top: 20px;
+}
+
+.home-buttons button {
+  background-color: green;  /* Green background for buttons */
+  color: white;  /* White text color */
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.home-buttons button:hover {
+  background-color: darkgreen;  /* Darker green on hover */
+}
+
+.home-buttons a {
+  text-decoration: none;
+  color: white;
+}
