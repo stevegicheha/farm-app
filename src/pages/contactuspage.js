@@ -20,9 +20,9 @@ const ContactUsPage = () => {
   return (
     <div className="contact-us">
       <h1>Contact Us</h1>
-      <p><strong>Address:</strong> {contactInfo.address}</p>  {/* Display the address */}
-      <p><strong>Phone:</strong> {contactInfo.phone}</p>  {/* Display the phone number */}
-      <p><strong>Email:</strong> {contactInfo.email}</p>  {/* Display the email */}
+      <p><strong>Address:</strong> {contactInfo.address}</p>  
+      <p><strong>Phone:</strong> {contactInfo.phone}</p> 
+      <p><strong>Email:</strong> {contactInfo.email}</p>  
     </div>
   );
 };
